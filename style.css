@@ -1,0 +1,177 @@
+*{
+   margin:0%;
+   padding:0%;
+   box-sizing: border-box;
+}
+
+html,body{
+   height: 100%;
+   width: 100%;
+}
+.main{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.board{
+  height: 100vh;
+  width: calc(40vw + 30vh );
+}
+.upper{
+height: 35vh;
+width: 100%;
+background-color: rgb(255, 255, 255);
+display: flex;
+
+
+}
+.mid{
+  height: 30vh;
+  width: 100%;
+  display: flex;
+}
+.lower{
+  height: 35vh;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+}
+.road{
+  height: 35vh;
+  width: 30vh;
+  display: flex;
+}
+.outer{
+  height: 35vh;
+  width: 20vw;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#up-left{
+  background-color: red;
+}
+#up-right{
+  background-color: rgb(25, 0, 255);
+}
+#lw-left{
+  background-color: rgb(9, 255, 0);
+}
+#lw-right{
+  background-color: rgb(217, 255, 0);
+}
+.inner{
+  height: 30vh;
+  width: 15vw;
+  background-color: aliceblue;
+  border: 4px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.coin-container{
+height: 50px;
+width: 12vw;
+display: flex;
+justify-content: space-around;
+}
+.red{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: red;
+  border: 2px solid black;
+}
+.blue{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: blue;
+  border: 2px solid rgb(0, 0, 0);
+}
+.green{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: rgb(21, 255, 21);
+  border: 2px solid black;
+}
+.yellow{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: yellow;
+  border: 2px solid black;
+}
+.home{
+    height: 30vh;
+    width: 30vh;
+    background-image: linear-gradient(to right,red,rgb(21, 255, 0), blue, yellow);
+  margin: 0 17.1rem;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.step-container{
+width: 10vh;
+height: 35vh;
+background-color: rgb(255, 255, 255);
+}
+.step{
+  height: 37px;
+  width: 100%;
+  border: 2px solid black;
+}
+.step-g{
+  height: 37px;
+  width: 100%;
+  background-color: rgb(9, 255, 0);
+  border: 2px solid black;
+}
+.step-b{
+  height: 37px;
+  width: 100%;
+  background-color: blue;
+  border: 2px solid black;
+}
+.mid-path{
+  height: 10vh;
+  width: 100%;
+  
+  z-index: 0;
+  display: flex;
+}
+.stepp{
+  height: 100%;
+  width: 2.87rem;
+  border: 2px solid black;
+  background-color: aliceblue;
+}
+.stepp-r{
+  height: 100%;
+  width: 2.87rem;
+  border: 2px solid black;
+  background-color: red;
+}
+.right-side{
+  position: absolute;
+  margin-left: 28.8rem;
+}
+.stepp-y{
+  height: 100%;
+  width: 2.87rem;
+  border: 2px solid black;
+  background-color: yellow;
+}
+h1{
+
+  color: white;
+}
